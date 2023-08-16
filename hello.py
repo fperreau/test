@@ -9,4 +9,5 @@ delay = CalculateDayBetweenDates(datetime.date(2017, 12, 28), datetime.date(2018
 
 for i in reversed(range(delay)):
     print(datetime.date(2017, 12, 28) + datetime.timedelta(days=i))
-    
+
+print('Goodbye FRED')
